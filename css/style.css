@@ -1,0 +1,84 @@
+/*hover 实现动效果*/
+.demo1{
+	margin-right: 20px;
+	position: relative;
+	text-decoration: none;
+	font-size: 20px;
+	color: #333;
+}
+.demo1:before{
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	background: #4258f4;
+	transition: all .3s;
+}
+.demo1:hover:before{
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+
+/*第二种方法*/
+.demo2{
+	position: relative;
+	text-decoration: none;
+	font-size: 20px;
+	color: #333;
+}
+.demo2:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	height: 2px;
+	width: 100%;
+	background: #4258f4;
+	transform: scale(0);
+	transition: all 0.3s;
+}
+.demo2:hover:before{
+	transform: scale(1);
+}
+a{
+	cursor: pointer;
+}
+
+/*尖角效果*/
+.callout{
+	position: relative;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 152px;
+    padding: 10px;
+    background: #cef;
+    margin-top: 5px;
+    margin-left: 54px;
+}
+.callout::before {
+	content: "";
+	position: absolute;
+	top: -.4em; left: 1em;
+	padding: .35em;
+	background: inherit;
+	border: inherit;
+	border-right: 0;
+	border-bottom: 0;
+	transform: rotate(45deg);
+}
+
+/*内圆角*/
+.something-meaningful{
+	background: #655;
+	padding: .8em;
+	width: 20em;
+	border-radius: 4px;
+}
+.something-meaningful > div{
+	background: tan;
+	border-radius: 0.8em;
+	padding: 1em;
+}
