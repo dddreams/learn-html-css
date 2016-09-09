@@ -1,0 +1,15 @@
+{
+  "name": "webscoket",
+  "version": "1.0.0",
+  "description": "websocket",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords":"websocket",
+  "author": "shure",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "1.1.1"
+  }
+}
