@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="demo">commonJS 在浏览器端的应用 。。。</h1>
+
+<script type="text/javascript" src="js/require.js"></script>
+<script type="text/javascript">
+	require.register("module/demo.js", function(module, exports, require){
+ 		function demo(dom){
+			dom.style.color = "red";
+		}
+
+		module.exports = demo;
+	}); 
+	var demo = require('module/demo.js');
+	demo(document.getElementById('demo'));
+</script>
+</body>
+</html>
