@@ -8,4 +8,8 @@
 
 **[WebSocket](https://github.com/dddreams/learn-html5/tree/master/WebSocket)**
 
-- html5 新增的 WebSocket 协议 demo,实现浏览器端实时聊天程序，
+- html5 新增的 WebSocket 协议 demo,实现浏览器端实时聊天程序。
+
+**[zhiheng](https://github.com/dddreams/learn-html5/tree/master/zhiheng)**
+
+- zhiheng 是我写了一半的个人博客，只加了一些静态文件，后期有时间将会完善。
