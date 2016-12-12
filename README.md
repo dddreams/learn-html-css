@@ -13,3 +13,7 @@
 **[zhiheng](https://github.com/dddreams/learn-html5/tree/master/zhiheng)**
 
 - zhiheng 是我写了一半的个人博客，只加了一些静态文件，后期有时间将会完善。
+
+**[Flex-layout](https://github.com/dddreams/learn-html5/tree/master/Flex-layout)**
+
+- flex 布局案例，详细步骤请看阮一峰老师的教程[Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
